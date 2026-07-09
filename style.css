@@ -1,0 +1,88 @@
+/* style.css */
+
+h1 {
+   font-size: 80px;
+    font-family: times new roman;
+    text-align: center;
+    color: #ffffff;
+    border: 5px solid #06c998;
+    width: 800px;
+    margin: 30px auto;
+}
+li{
+   color:rgb(233, 219, 29);
+   font-size: 30px;
+   font-family: times new roman;
+}
+h2{
+    font-size: 45px;
+    font-family: times new roman;
+    color: #06c998;
+}
+img{
+    border: 5px solid rgb(245, 245, 245);
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.m{
+   width:800px;
+   height:500px;
+}
+body{
+  font-family: times new roman;
+    font-size: 40px;
+ background-color: rgb(29, 28, 28);
+  text-align: center;
+}
+nav a{
+    color: #06c998;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    background-color: #09e9aa;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    padding: 10px 0;
+}
+nav ul li a::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: gold;
+    transition: width 0.3s ease;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+a{
+    color: rgb(244, 231, 51);
+    font-size: 40px;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+h3{
+    font-size: 30px;
+    font-family: times new roman;
+    color: #d1f531;
+}
